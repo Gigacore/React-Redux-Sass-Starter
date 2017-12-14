@@ -63,6 +63,11 @@ body {
   align-items: center; }
   .counter > div:first-child {
     font-size: 100px; }
+  .counter a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none; }
   .counter .controls {
     display: flex;
     flex-direction: row-reverse; }

@@ -70,6 +70,13 @@ body {
     font-size: 100px;
   }
 
+  a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+  }
+
   .controls {
     display: flex;
     flex-direction: row-reverse;
