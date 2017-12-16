@@ -1,7 +1,7 @@
 # React Redux Starter
 A simple starter to get you going with developing React applications with Redux!
 
-**Demo:** http://www.gigacore.in/react-redux-demo/
+**Demo:** https://www.gigacore.in/demos/react-redux-demo/
 
 ### Under the hood
 
