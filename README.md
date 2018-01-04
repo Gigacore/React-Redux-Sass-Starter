@@ -1,4 +1,4 @@
-![Screenshot](https://image.ibb.co/dQ1fmb/react_redux_sass.jpg);
+![Screenshot](https://image.ibb.co/m8S9ew/react_redux_sass.jpg)
 
 # React Redux & Sass Starter
 A simple and quick way to get you going with developing React applications with Redux and Sass for styling. 
