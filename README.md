@@ -11,7 +11,7 @@ With all neccessary tools in place, all you need to do is start creating React C
 
 ### Get it runnin'!
 * git clone
-* cd React-Redux-Starter
+* cd React-Redux-Sass-Starter
 * npm i
 * npm start 
 
