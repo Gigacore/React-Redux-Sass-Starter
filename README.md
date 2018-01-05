@@ -21,7 +21,7 @@ All the required code (JS + Sass) goes inside the ```src``` folder. Webpack will
 |  ├─ dist/
 |  |  ├─ bundle.css           # CSS generated from SASS
 |  |  ├─ bundle.js            # Contains scripts of components & vendor(s).
-|  ├─ index.html              # Invokes the application and displays it on browser.
+|  ├─ index.html              # Contains root element to mount your app.
 └─ src/
    ├─ actions/                # Create actions here.
    |  ├─ counterActions.js
