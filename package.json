@@ -2,7 +2,6 @@
   "name": "webpack",
   "version": "1.0.0",
   "description": "webpack init",
-  "main": "index.js",
   "watch": true,
   "dependencies": {
     "react": "^16.1.1",
