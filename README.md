@@ -13,7 +13,7 @@ With all necessary tools in place, all you need to do is start creating React Co
 
 All the required code (JS + Sass) goes inside the ```src``` folder. Webpack will compile, bundle and output in the ```public``` folder, which you can upload/deploy to the root directory of your web server to publish your app!
 
-#### Overview of directory structure.
+#### Codebase overview.
 
 ```
 /
