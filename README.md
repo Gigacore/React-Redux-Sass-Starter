@@ -19,7 +19,7 @@ All the required code (JS + Sass) goes inside the ```src``` folder. Webpack will
 * ES6 Transpiler: [babel-loader](https://github.com/babel/babel-loader)
 * Linting: [eslint](https://eslint.org/)
 * JS Uglification: [UglifyJsPlugin](https://webpack.js.org/plugins/uglifyjs-webpack-plugin/)
-* Dev Server: [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
+* Dev Server: [webpack-dev-server](https://github.com/webpack/webpack-dev-server) -- ```npm start```
 
 #### Codebase overview.
 
