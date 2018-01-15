@@ -8,8 +8,7 @@
     "react-dom": "^16.1.1",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
-    "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.4"
+    "webpack": "^3.8.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -20,13 +19,17 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^0.28.4",
+    "eslint": "^4.15.0",
     "eslint-loader": "^1.9.0",
+    "eslint-plugin-react": "^7.5.1",
     "extract-text-webpack-plugin": "2.1.2",
     "file-loader": "^0.11.2",
     "lodash": "^4.17.4",
     "node-sass": "^4.5.3",
+    "pre-commit": "^1.2.2",
     "sass-loader": "^6.0.6",
-    "uglifyjs-webpack-plugin": "^1.1.1"
+    "uglifyjs-webpack-plugin": "^1.1.1",
+    "webpack-dev-server": "^2.7.1"
   },
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --port 8080"

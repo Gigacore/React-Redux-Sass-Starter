@@ -16,14 +16,14 @@ module.exports = {
         loader: ExtractTextPlugin.extract(['css-loader', 'sass-loader'])
       },
       {
-          test: /\.jsx?$/, 
-          loader: 'eslint', 
-          exclude: /node_modules/
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loaders: "eslint-loader",
       },
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
+        loaders: "babel-loader",
         options: {
           presets: ["react", "stage-0", "es2015"],
           plugins: ["transform-class-properties", "transform-decorators-legacy"]
