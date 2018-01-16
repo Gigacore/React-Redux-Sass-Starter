@@ -1,9 +1,8 @@
 {
   "env": {
-      "browser": true,
+      "browser": false,
       "commonjs": true,
-      "es6": true,
-      "node": true
+      "es6": true
   },
   "extends": "eslint:recommended",
   "parserOptions": {
@@ -17,9 +16,9 @@
       "react"
   ],
   "rules": {
-      "indent": [
-          "error",
-          4
+      "react/jsx-indent": [
+        "error",
+        2
       ],
       "linebreak-style": [
           "error",
@@ -30,7 +29,7 @@
           "double"
       ],
       "semi": [
-          "error",
+          "warn",
           "always"
       ],
       "no-console": 0

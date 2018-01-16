@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import Controls from './Controls';
+import React, { Component } from "react";
+import Controls from "./Controls";
 
 import { connect } from 'react-redux';
 
