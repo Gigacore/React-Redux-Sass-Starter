@@ -7,28 +7,28 @@ import { incrementNum, decrementNum, resetCounter } from "../actions/counterActi
 
 export default class Controls extends Component {
 
-  _increment = () => {
+  increment = () => {
     this.props.dispatch(incrementNum());
   }
 
-  _decrement = () => {
+  decrement = () => {
     this.props.dispatch(decrementNum());
   }
 
-  _resetCount = () => {
+  resetCount = () => {
     this.props.dispatch(resetCounter(0));
   }
 
   render() {
     return (
       <div className="controls">
-        <div onClick={() => {this._increment()}}>
+        <div onClick={() => {this.increment()}}>
           <span>+</span>
         </div>
-        <div onClick={() => {this._resetCount()}}>
+        <div onClick={() => {this.resetCount()}}>
           <span>RESET</span>
         </div>
-        <div onClick={() => {this._decrement()}}>
+        <div onClick={() => {this.decrement()}}>
           <span>-</span>
         </div>
       </div>
