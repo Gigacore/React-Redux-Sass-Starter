@@ -1,19 +1,18 @@
 const path = require("path");
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-const webpack = require('webpack');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const webpack = require("webpack");
 
 module.exports = {
-  entry: ['./src/index.js', './src/styles/main.scss'],
+  entry: ["./src/index.js", "./src/styles/main.scss"],
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, './public/dist')
+    filename: "bundle.js",
+    path: path.resolve(__dirname, "./public/dist")
   },
   module: {
     rules: [
       {
         test: /\.scss/,
-        loader: ExtractTextPlugin.extract(['css-loader', 'sass-loader'])
+        loader: ExtractTextPlugin.extract(["css-loader", "sass-loader"])
       },
       {
         test: /\.js$/,
@@ -32,13 +31,13 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: './public/'
+    contentBase: "./public/"
   },
   plugins: [
     new ExtractTextPlugin("bundle.css"),
     new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify('production')
+      "process.env.NODE_ENV": JSON.stringify("production")
     }),
     new webpack.optimize.UglifyJsPlugin()
   ]
-}
+};
