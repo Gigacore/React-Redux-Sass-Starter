@@ -32,7 +32,8 @@
     "webpack-dev-server": "^2.7.1"
   },
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --port 8080"
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --port 8080",
+    "lint": "./node_modules/.bin/eslint ./src"
   },
   "author": "Santhosh Sundar",
   "license": "MIT"
