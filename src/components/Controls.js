@@ -22,17 +22,17 @@ import { incrementNum, decrementNum, resetCounter } from "../actions/counterActi
   render() {
     return (
       <div className="controls">
-        <div onClick={() => {this.increment()}}>
+        <div onClick={() => {this.increment();}}>
           <span>+</span>
         </div>
-        <div onClick={() => {this.resetCount()}}>
+        <div onClick={() => {this.resetCount();}}>
           <span>RESET</span>
         </div>
-        <div onClick={() => {this.decrement()}}>
+        <div onClick={() => {this.decrement();}}>
           <span>-</span>
         </div>
       </div>
-    )
+    );
   }
 }
 
