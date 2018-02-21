@@ -9,7 +9,7 @@ import { connect } from 'react-redux';
   }
 })
 
-export default class Counter extends Component {
+ class Counter extends Component {
   render() {
 
     const { count } = this.props.count;
@@ -26,3 +26,4 @@ export default class Counter extends Component {
     )
   }
 }
+export default Counter;

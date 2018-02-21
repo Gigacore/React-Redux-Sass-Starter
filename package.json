@@ -7,8 +7,7 @@
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-redux": "^5.0.6",
-    "redux": "^3.7.2",
-     "lodash": "^4.17.4"
+    "redux": "^3.7.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -28,12 +27,13 @@
     "pre-commit": "^1.2.2",
     "sass-loader": "^6.0.6",
     "uglifyjs-webpack-plugin": "^1.1.1",
-    "webpack": "^3.8.1" ,
+    "webpack": "^3.8.1",
     "webpack-dev-server": "^2.7.1"
   },
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --port 8080",
-    "lint": "./node_modules/.bin/eslint ./src"
+    "lint": "./node_modules/.bin/eslint ./src",
+    "watch": "webpack --watch"
   },
   "author": "Santhosh Sundar",
   "license": "MIT"

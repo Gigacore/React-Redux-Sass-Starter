@@ -5,7 +5,7 @@ import { incrementNum, decrementNum, resetCounter } from "../actions/counterActi
 
 @connect(() => {})
 
-export default class Controls extends Component {
+ class Controls extends Component {
 
   increment = () => {
     this.props.dispatch(incrementNum());
@@ -35,3 +35,5 @@ export default class Controls extends Component {
     )
   }
 }
+
+export default Controls;
