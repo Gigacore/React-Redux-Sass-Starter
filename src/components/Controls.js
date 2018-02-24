@@ -5,7 +5,7 @@ import { incrementNum, decrementNum, resetCounter } from "../actions/counterActi
 
 @connect(() => {})
 
-export default class Controls extends Component {
+ class Controls extends Component {
 
   increment = () => {
     this.props.dispatch(incrementNum());
@@ -22,16 +22,18 @@ export default class Controls extends Component {
   render() {
     return (
       <div className="controls">
-        <div onClick={() => {this.increment()}}>
+        <div onClick={() => {this.increment();}}>
           <span>+</span>
         </div>
-        <div onClick={() => {this.resetCount()}}>
+        <div onClick={() => {this.resetCount();}}>
           <span>RESET</span>
         </div>
-        <div onClick={() => {this.decrement()}}>
+        <div onClick={() => {this.decrement();}}>
           <span>-</span>
         </div>
       </div>
-    )
+    );
   }
 }
+
+export default Controls;

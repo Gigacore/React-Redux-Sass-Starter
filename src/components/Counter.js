@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import Controls from "./Controls";
 
-import { connect } from 'react-redux';
+import { connect } from "react-redux";
 
 @connect((store) => {
   return {
     count: store
-  }
+  };
 })
 
-export default class Counter extends Component {
+ class Counter extends Component {
   render() {
 
     const { count } = this.props.count;
@@ -20,9 +20,10 @@ export default class Counter extends Component {
         <Controls />
         <hr />
         <span>
-          <a href="https://github.com/Gigacore/React-Redux-Starter">Fork it on Github</a>
+          <a href='https://github.com/Gigacore/React-Redux-Starter'>Fork it on Github</a>
         </span>
       </div>
-    )
+    );
   }
 }
+export default Counter;
