@@ -7,7 +7,7 @@ Comes with pre-configured Webpack for bundling your application to help save tim
 
 **Demo:** https://www.gigacore.in/demos/react-redux-demo/
 
-If you are looking for a complex example with Async actions, take a look at: **[react-weather-forecast]**(https://github.com/Gigacore/react-weather-forecast)
+If you are looking for a complex example with Async actions, take a look at: [react-weather-forecast](https://github.com/Gigacore/react-weather-forecast)
 
 ### Components 🔩 Styles 🎨 Action! 🎬
 
