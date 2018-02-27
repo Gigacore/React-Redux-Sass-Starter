@@ -7,6 +7,8 @@ Comes with pre-configured Webpack for bundling your application to help save tim
 
 **Demo:** https://www.gigacore.in/demos/react-redux-demo/
 
+If you are looking for a complex example with Async actions, take a look at: **[react-weather-forecast]**(https://github.com/Gigacore/react-weather-forecast)
+
 ### Components 🔩 Styles 🎨 Action! 🎬
 
 With all necessary tools in place, all you need to do is start creating React Components, style them and optionally use Redux for the State management. It is recommended to use Redux if you are building applications that require interactions between multiple components or that requires pulling data from external source.
