@@ -21,16 +21,19 @@ import { incrementNum, decrementNum, resetCounter } from "../actions/counterActi
   }
 
   render() {
+
+    const { resetLabel, incrementLabel, decrementLabel } = this.props;
+
     return (
       <div className="controls">
         <div onClick={() => {this.increment();}}>
-          <span>+</span>
+          <span>{incrementLabel}</span>
         </div>
         <div onClick={() => {this.resetCount();}}>
-          <span>RESET</span>
+          <span>{resetLabel}</span>
         </div>
         <div onClick={() => {this.decrement();}}>
-          <span>-</span>
+          <span>{decrementLabel}</span>
         </div>
       </div>
     );
@@ -38,7 +41,16 @@ import { incrementNum, decrementNum, resetCounter } from "../actions/counterActi
 }
 
 Controls.propTypes = {
-  dispatch: PropTypes.func
+  dispatch: PropTypes.func,
+  resetLabel: PropTypes.string,
+  incrementLabel: PropTypes.string,
+  decrementLabel: PropTypes.string
+};
+
+Controls.defaultProps = {
+  resetLabel: "RESET",
+  incrementLabel: "+",
+  decrementLabel: "-"
 };
 
 export default Controls;
