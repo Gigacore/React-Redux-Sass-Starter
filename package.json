@@ -37,6 +37,7 @@
     "lint": "./node_modules/.bin/eslint ./src",
     "watch": "webpack --watch"
   },
+  "precommit": "lint",
   "author": "Santhosh Sundar",
   "license": "MIT"
 }

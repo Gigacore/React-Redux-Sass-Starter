@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import Controls from "./Controls";
 
 import { connect } from "react-redux";
@@ -26,4 +27,9 @@ import { connect } from "react-redux";
     );
   }
 }
+
+Counter.propTypes = {
+  count: PropTypes.number
+};
+
 export default Counter;

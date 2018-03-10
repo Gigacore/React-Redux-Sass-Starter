@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+import PropTypes from "prop-types";
 
 import { incrementNum, decrementNum, resetCounter } from "../actions/counterActions";
 
@@ -35,5 +36,9 @@ import { incrementNum, decrementNum, resetCounter } from "../actions/counterActi
     );
   }
 }
+
+Controls.propTypes = {
+  dispatch: PropTypes.func
+};
 
 export default Controls;
