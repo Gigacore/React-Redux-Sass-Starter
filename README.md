@@ -21,7 +21,7 @@ All the required code (JS + Sass) goes inside the ```src``` folder. Webpack will
 * ES6 Transpiler: [babel-loader](https://github.com/babel/babel-loader)
 * Linting: [eslint](https://eslint.org/)
 * JS Uglification: [UglifyJsPlugin](https://webpack.js.org/plugins/uglifyjs-webpack-plugin/)
-* Dev Server: [webpack-dev-server](https://github.com/webpack/webpack-dev-server) (```npm start```)
+* Dev Server: [webpack-dev-server](https://github.com/webpack/webpack-dev-server) (```npm run start:dev```)
 
 #### Codebase overview.
 
@@ -52,7 +52,7 @@ All the required code (JS + Sass) goes inside the ```src``` folder. Webpack will
 
 ### Get it runnin'!
 ```
-git clone
+git clone https://github.com/Gigacore/React-Redux-Sass-Starter.git
 cd React-Redux-Sass-Starter
 npm i
 ```
@@ -60,10 +60,12 @@ npm i
 ### Start the dev server:
 ```npm run start:dev```
 
+Note: Changes made to your CSS / JS triggers a full page auto-reload.
+
 ### Build:
 ``` npm run build```
 
-Note: Running the build outputs the ```bundle.js``` and ```bundle.css``` to the ```/public/dist/``` directory.
+Note: This outputs the ```bundle.js``` and ```bundle.css``` to the ```/public/dist/``` directory.
 
 ### Learn
 
