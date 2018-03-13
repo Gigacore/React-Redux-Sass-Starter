@@ -11,7 +11,7 @@ For a complex example with Async actions, take a look at: [react-weather-forecas
 
 ### Components 🔩 Styles 🎨 Action! 🎬
 
-With all necessary tools in place, all you need to do is start creating React Components, style them and optionally use Redux for the State management. It is recommended to use Redux if you are building applications that require interactions between multiple components or that requires pulling data from external source.
+With all necessary tools in place, all you need to do is start creating React Components, style them and optionally use Redux for the State management. It is recommended that you use Redux if the applications you are building require interactions between multiple components or that requires pulling data from external source.
 
 All the required code (JS + Sass) goes inside the ```src``` folder. Webpack will compile, bundle and output in the ```public``` folder, which you can upload/deploy to the root directory of your web server to publish your app!
 
