@@ -60,12 +60,12 @@ npm i
 ### Start the dev server:
 ```npm run start:dev```
 
-Note: Changes made to your CSS / JS triggers a full page auto-reload.
-
 ### Build:
 ``` npm run build```
 
-Note: This outputs the ```bundle.js``` and ```bundle.css``` to the ```/public/dist/``` directory.
+#### Note:
+* Changes made to your CSS / JS triggers a full page auto-reload.
+* Running a build writes the ```bundle.js``` and ```bundle.css``` to the ```/public/dist/``` directory.
 
 ### Learn
 
