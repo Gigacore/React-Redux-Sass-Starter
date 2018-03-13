@@ -33,9 +33,10 @@
     "webpack-dev-server": "^2.11.2"
   },
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --port 8080",
-    "lint": "./node_modules/.bin/eslint ./src",
-    "watch": "webpack --watch"
+    "start:dev": "webpack-dev-server",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "lint": "./node_modules/.bin/eslint ./src"
   },
   "precommit": "lint",
   "author": "Santhosh Sundar",

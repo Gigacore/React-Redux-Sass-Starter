@@ -31,7 +31,8 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: "./public/"
+    contentBase: "./public/",
+    watchContentBase: true
   },
   plugins: [
     new ExtractTextPlugin("bundle.css"),
