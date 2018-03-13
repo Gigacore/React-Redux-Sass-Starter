@@ -17,7 +17,7 @@ All the required code (JS + Sass) goes inside the ```src``` folder. Webpack will
 
 ### Get started!
 ```
-git clone https://github.com/Gigacore/React-Redux-Sass-Starter.git
+git clone
 cd React-Redux-Sass-Starter
 npm i
 ```
