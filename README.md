@@ -1,9 +1,9 @@
 ![logos](https://image.ibb.co/m8S9ew/react_redux_sass.jpg)
 
 # React, Redux & Sass Starter
-A simple and quick way to get you going with developing React applications with Redux and Sass for styling.
+A simple and quick way to get you going with developing React applications with Redux and Sass.
 
-Comes with pre-configured Webpack for bundling your application to help save time in setting up your project. While Redux takes care of State Management, this starter kit keeps CSS out of JavaScript to maintain separation of concerns.
+Comes with pre-configured Webpack for bundling your application to help save time in setting up your project. Keeps CSS out of JavaScript to maintain separation of concerns. Redux takes care of State Management. If you are looking for _CSS-in-JS_ approach, this starter pack is not for you.
 
 **Demo:** https://www.gigacore.in/demos/react-redux-demo/
 
