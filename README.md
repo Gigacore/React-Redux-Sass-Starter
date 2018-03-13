@@ -23,10 +23,18 @@ npm i
 ```
 
 ### Start the dev server:
-```npm run start:dev```
+```
+
+npm run start:dev
+
+```
 
 ### Build:
-``` npm run build```
+```
+
+npm run build
+
+```
 
 #### Note:
 * Changes made to your CSS / JS triggers a full page auto-reload.
