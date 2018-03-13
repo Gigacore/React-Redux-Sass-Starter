@@ -1,7 +1,7 @@
 ![logos](https://image.ibb.co/m8S9ew/react_redux_sass.jpg)
 
 # React, Redux & Sass Starter
-A simple and quick way to get you going with developing React applications with Redux and Sass for styling. 
+A simple and quick way to get you going with developing React applications with Redux and Sass for styling.
 
 Comes with pre-configured Webpack for bundling your application to help save time in setting up your project. While Redux takes care of State Management, this starter kit keeps CSS out of JavaScript to maintain separation of concerns.
 
@@ -39,7 +39,7 @@ All the required code (JS + Sass) goes inside the ```src``` folder. Webpack will
    |  ├─ Controls.js
    |  ├─ Counter.js
    ├─ constants/              # Define action types here.
-   |  ├─ ActionTypes.js       
+   |  ├─ ActionTypes.js
    ├─ reducers/               # Create reducers here.
    |  ├─ counter.js
    |  ├─ index.js             # Combine your reducers here.
@@ -51,10 +51,19 @@ All the required code (JS + Sass) goes inside the ```src``` folder. Webpack will
 ```
 
 ### Get it runnin'!
-* git clone
-* cd React-Redux-Sass-Starter
-* npm i
-* npm start
+```
+git clone
+cd React-Redux-Sass-Starter
+npm i
+```
+
+### Start the dev server:
+```npm run start:dev```
+
+### Build:
+``` npm run build```
+
+Note: Running the build outputs the ```bundle.js``` and ```bundle.css``` to the ```/public/dist/``` directory.
 
 ### Learn
 
