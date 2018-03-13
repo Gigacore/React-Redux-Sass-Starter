@@ -15,6 +15,23 @@ With all necessary tools in place, all you need to do is start creating React Co
 
 All the required code (JS + Sass) goes inside the ```src``` folder. Webpack will compile, bundle and output in the ```public``` folder, which you can upload/deploy to the root directory of your web server to publish your app!
 
+### Get started!
+```
+git clone https://github.com/Gigacore/React-Redux-Sass-Starter.git
+cd React-Redux-Sass-Starter
+npm i
+```
+
+### Start the dev server:
+```npm run start:dev```
+
+### Build:
+``` npm run build```
+
+#### Note:
+* Changes made to your CSS / JS triggers a full page auto-reload.
+* Running a build writes the ```bundle.js``` and ```bundle.css``` to the ```/public/dist/``` directory.
+
 ### Pre-configured tools and plugins
 
 * Module bundler: [Webpack](https://webpack.js.org/)
@@ -49,23 +66,6 @@ All the required code (JS + Sass) goes inside the ```src``` folder. Webpack will
    ├─ index.js                # Passes state to App. Renders markup to DOM.
    └─ store.js                # Creates and exports store.
 ```
-
-### Get it runnin'!
-```
-git clone https://github.com/Gigacore/React-Redux-Sass-Starter.git
-cd React-Redux-Sass-Starter
-npm i
-```
-
-### Start the dev server:
-```npm run start:dev```
-
-### Build:
-``` npm run build```
-
-#### Note:
-* Changes made to your CSS / JS triggers a full page auto-reload.
-* Running a build writes the ```bundle.js``` and ```bundle.css``` to the ```/public/dist/``` directory.
 
 ### Learn
 
