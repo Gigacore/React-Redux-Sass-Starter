@@ -5,8 +5,8 @@
   "watch": true,
   "dependencies": {
     "prop-types": "^15.6.1",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2"
   },
@@ -28,7 +28,7 @@
     "node-sass": "^4.8.3",
     "pre-commit": "^1.2.2",
     "sass-loader": "^6.0.7",
-    "uglifyjs-webpack-plugin": "^1.2.4",
+    "uglifyjs-webpack-plugin": "^1.2.5",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.2"
   },
