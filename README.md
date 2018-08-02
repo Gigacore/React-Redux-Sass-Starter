@@ -63,6 +63,9 @@ npm run build
    ├─ components/             # Create components here
    |  ├─ Controls.js
    |  ├─ Counter.js
+   |─ containers/             # Containers bridge Components with the State.
+   |  ├─ Controls.js
+   |  ├─ Counter.js
    ├─ constants/              # Define action types here.
    |  ├─ ActionTypes.js
    ├─ reducers/               # Create reducers here.
