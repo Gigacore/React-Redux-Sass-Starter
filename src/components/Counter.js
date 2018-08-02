@@ -1,19 +1,11 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import Controls from "./Controls";
-
-import { connect } from "react-redux";
-
-@connect((store) => {
-  return {
-    count: store
-  };
-})
+import Controls from "../containers/Controls";
 
  class Counter extends Component {
   render() {
 
-    const { count } = this.props.count;
+    const { count } = this.props;
 
     return (
       <div className="counter">

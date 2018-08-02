@@ -2,37 +2,20 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 
-import { incrementNum, decrementNum, resetCounter } from "../actions/counterActions";
-
-@connect(() => {})
-
  class Controls extends Component {
 
-  increment = () => {
-    this.props.dispatch(incrementNum());
-  }
-
-  decrement = () => {
-    this.props.dispatch(decrementNum());
-  }
-
-  resetCount = () => {
-    this.props.dispatch(resetCounter(0));
-  }
-
   render() {
-
-    const { resetLabel, incrementLabel, decrementLabel } = this.props;
+    const { resetLabel, incrementLabel, decrementLabel, increment, decrement, resetCount } = this.props;
 
     return (
       <div className="controls">
-        <div onClick={() => {this.increment();}}>
+        <div onClick={() => {increment();}}>
           <span>{incrementLabel}</span>
         </div>
-        <div onClick={() => {this.resetCount();}}>
+        <div onClick={() => {resetCount(0);}}>
           <span>{resetLabel}</span>
         </div>
-        <div onClick={() => {this.decrement();}}>
+        <div onClick={() => {decrement();}}>
           <span>{decrementLabel}</span>
         </div>
       </div>
@@ -41,10 +24,12 @@ import { incrementNum, decrementNum, resetCounter } from "../actions/counterActi
 }
 
 Controls.propTypes = {
-  dispatch: PropTypes.func,
+  increment: PropTypes.func,
+  decrement: PropTypes.func,
+  resetCount: PropTypes.func,
   resetLabel: PropTypes.string,
   incrementLabel: PropTypes.string,
-  decrementLabel: PropTypes.string
+  decrementLabel: PropTypes.string,
 };
 
 Controls.defaultProps = {
