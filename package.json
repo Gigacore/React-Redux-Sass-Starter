@@ -5,9 +5,9 @@
   "watch": true,
   "dependencies": {
     "express": "^4.16.4",
-    "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
     "react-redux": "^5.1.1",
     "redux": "^3.7.2"
   },
@@ -23,7 +23,7 @@
     "css-loader": "^0.28.11",
     "eslint": "^4.19.1",
     "eslint-loader": "^1.9.0",
-    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react": "^7.12.4",
     "extract-text-webpack-plugin": "2.1.2",
     "file-loader": "^0.11.2",
     "node-sass": "^4.11.0",
