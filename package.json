@@ -4,7 +4,6 @@
   "description": "Everything you need to get started with a basic React application",
   "watch": true,
   "dependencies": {
-    "express": "^4.16.4",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
