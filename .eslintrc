@@ -7,12 +7,21 @@
   "extends": [
       "plugin:react/recommended"
     ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "parserOptions": {
-      "ecmaFeatures": {
-          "experimentalObjectRestSpread": true,
-          "jsx": true
-      },
-      "sourceType": "module"
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    },
+    "requireConfigFile": false
   },
   "plugins": [
       "react"
@@ -35,5 +44,5 @@
           "always"
       ]
   },
-  "parser": "babel-eslint"
+  "parser": "@babel/eslint-parser"
 }

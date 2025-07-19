@@ -1,20 +1,10 @@
-import React, { Component } from "react";
-import Controls from "../components/Counter";
-import { connect } from "react-redux";
+import React from "react";
+import { useSelector } from "react-redux";
+import Counter from "../components/Counter";
 
-export class Controller extends Component {
-
-  render() {
-    return (
-      <Controls {...this.props}/>
-    );
-  }
+const CounterContainer = () => {
+  const count = useSelector(state => state.count);
+  return <Counter count={count} />;
 };
 
-export const mapStateToProps = store => {
-  return {
-    count: store.count
-  };
-};
-
-export default connect(mapStateToProps, null)(Controls);
+export default CounterContainer;
