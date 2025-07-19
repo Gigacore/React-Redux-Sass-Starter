@@ -1,24 +1,18 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import Controls from "../components/Controls";
-import { incrementNum, decrementNum, resetCounter } from "../actions/counterActions";
+import { increment, decrement, reset } from "../features/counter/counterSlice";
 
 const ControlsContainer = () => {
   const dispatch = useDispatch();
 
-  const increment = () => {
-    dispatch(incrementNum());
-  };
-
-  const decrement = () => {
-    dispatch(decrementNum());
-  };
-
-  const reset = () => {
-    dispatch(resetCounter());
-  };
-
-  return <Controls increment={increment} decrement={decrement} reset={reset} />;
+  return (
+    <Controls
+      increment={() => dispatch(increment())}
+      decrement={() => dispatch(decrement())}
+      reset={() => dispatch(reset())}
+    />
+  );
 };
 
 export default ControlsContainer;

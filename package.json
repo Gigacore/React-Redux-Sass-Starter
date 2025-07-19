@@ -4,6 +4,7 @@
   "description": "Everything you need to get started with a basic React application",
   "watch": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
     "prop-types": "^15.8.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
