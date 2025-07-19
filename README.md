@@ -1,9 +1,9 @@
 ![logos](https://image.ibb.co/m8S9ew/react_redux_sass.jpg)
 
 # React, Redux & Sass Starter
-A simple and quick way to get you going with developing React applications with Redux and Sass.
+A simple and quick way to get you going with developing React applications with the latest versions of React, Redux Toolkit and Sass.
 
-Comes with pre-configured Webpack for bundling your application to help save time in setting up your project. Keeps CSS out of JavaScript to maintain separation of concerns. Redux takes care of State Management. If you are looking for _CSS-in-JS_ approach, this starter pack is not for you.
+Comes with pre-configured Webpack for bundling your application to help save time in setting up your project. Keeps CSS out of JavaScript to maintain separation of concerns. Redux Toolkit takes care of State Management.
 
 **Demo:** https://www.gigacore.in/demos/react-redux-demo/
 
@@ -11,29 +11,25 @@ For a complex example with Async actions, take a look at: [react-weather-forecas
 
 ### Components 🔩 Styles 🎨 Action! 🎬
 
-With all necessary tools in place, all you need to do is start creating React Components, style them and optionally use Redux for the State management. It is recommended that you use Redux if the applications you are building require interactions between multiple components or that requires pulling data from external source.
+With all necessary tools in place, all you need to do is start creating React Components, style them and use Redux Toolkit for the State management.
 
 All the required code (JS + Sass) goes inside the ```src``` folder. Webpack will compile, bundle and output in the ```public``` folder, which you can upload/deploy to the root directory of your web server to publish your app!
 
 ### Get started!
 ```
-git clone
+git clone https://github.com/Gigacore/React-Redux-Sass-Starter.git
 cd React-Redux-Sass-Starter
 npm i
 ```
 
 ### Start the dev server:
 ```
-
 npm run start:dev
-
 ```
 
 ### Build:
 ```
-
 npm run build
-
 ```
 
 #### Note:
@@ -43,9 +39,10 @@ npm run build
 ### Pre-configured tools and plugins
 
 * Module bundler: [Webpack](https://webpack.js.org/)
-* ES6 Transpiler: [babel-loader](https://github.com/babel/babel-loader)
+* ES6 Transpiler: [@babel/core](https://babeljs.io/)
+* State Management: [Redux Toolkit](https://redux-toolkit.js.org/)
 * Linting: [eslint](https://eslint.org/)
-* JS Uglification: [UglifyJsPlugin](https://webpack.js.org/plugins/uglifyjs-webpack-plugin/)
+* CSS Extraction: [mini-css-extract-plugin](https://webpack.js.org/plugins/mini-css-extract-plugin/)
 * Dev Server: [webpack-dev-server](https://github.com/webpack/webpack-dev-server) (```npm run start:dev```)
 
 #### Codebase overview.
@@ -58,19 +55,15 @@ npm run build
 |  |  ├─ bundle.js            # Contains scripts of components & vendor(s).
 |  ├─ index.html              # Contains root element to mount your app.
 └─ src/
-   ├─ actions/                # Create actions here.
-   |  ├─ counterActions.js
    ├─ components/             # Create components here
    |  ├─ Controls.js
    |  ├─ Counter.js
    |─ containers/             # Containers bridge Components with the State.
    |  ├─ Controls.js
    |  ├─ Counter.js
-   ├─ constants/              # Define action types here.
-   |  ├─ ActionTypes.js
-   ├─ reducers/               # Create reducers here.
-   |  ├─ counter.js
-   |  ├─ index.js             # Combine your reducers here.
+   ├─ features/               # Redux Toolkit slices
+   |  ├─ counter/
+   |  |  ├─ counterSlice.js
    ├─ styles/                 # All styling goes here.
    |  ├─ main.scss
    ├─ App.js                  # Include your main component(s).
@@ -84,9 +77,9 @@ This starter kit assumes, you are familiar with JavaScript (ES6). If you are new
 
 **React** - [Quick Start](https://reactjs.org/docs/hello-world.html) | [Start Learning React](https://egghead.io/courses/start-learning-react) | [React in 8-minutes](https://medium.com/learning-new-stuff/learn-react-js-in-7-min-92a1ef023003)
 
-**Redux** - [Basics](https://redux.js.org/docs/basics/) | [An Introduction](https://www.smashingmagazine.com/2016/06/an-introduction-to-redux/) | [React with Redux](https://www.youtube.com/watch?v=1w-oQ-i1XB8)
+**Redux Toolkit** - [Quick Start](https://redux-toolkit.js.org/introduction/quick-start)
 
 **Sass** - [Sass Guide](http://sass-lang.com/guide)
 
 #### The MIT License (MIT)
-MIT © 2017 Santhosh Sundar
+MIT © 2025 Santhosh Sundar
